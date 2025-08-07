@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import SEOHead from '../components/SEOHead';
 import { structuredData } from '../lib/seo';
 
@@ -253,18 +254,18 @@ export default function About() {
             create a personalized treatment plan that delivers real results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
+            <Link
               href="/contact"
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-200 shadow-lg"
             >
               Book Consultation
-            </a>
-            <a
+            </Link>
+            <Link
               href="tel:+919893014535"
               className="border-2 border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-200"
             >
               Call Now: +91-9893014535
-            </a>
+            </Link>
           </div>
         </div>
       </section>

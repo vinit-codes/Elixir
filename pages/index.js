@@ -1,4 +1,5 @@
 import SEOHead from '../components/SEOHead';
+import Link from 'next/link';
 import HeroSection from '../components/HeroSection';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
@@ -219,7 +220,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="pt-4">
-                <a
+                <Link
                   href="/blog"
                   className="inline-flex items-center bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
                 >
@@ -227,7 +228,7 @@ export default function Home() {
                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
