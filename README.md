@@ -1,7 +1,5 @@
 # Elixir Skin & Hair Clinic
 
-![Elixir Skin & Hair Clinic](https://elixir-mu-henna.vercel.app/images/logo.png)
-
 A modern, responsive website for Elixir Skin & Hair Clinic, featuring comprehensive dermatology and hair treatment services. Visit the live site: [Elixir Skin & Hair Clinic](https://elixir-mu-henna.vercel.app/)
 
 ## Features
@@ -128,11 +126,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Contact
-
-For any queries regarding the website or treatment services:
-
-- 📞 Phone: +91-9893014535
-- 📧 Email: [contact@elixirclinic.com](mailto:contact@elixirclinic.com)
-- 🌐 Website: [https://elixir-mu-henna.vercel.app/](https://elixir-mu-henna.vercel.app/)
